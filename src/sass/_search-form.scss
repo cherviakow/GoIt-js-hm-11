@@ -1,0 +1,33 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(88, 88, 175);
+    padding: 30px;
+}
+
+input {
+ height: 40px;
+ width: 15%;
+ border: none;
+ border-radius: 2px solid rgb(88, 88, 175);
+ border-radius: 10px 0 0 10px;
+ outline: 0px;
+ padding-left: 20px;
+}
+
+input:focus {
+    border: 2px solid #6a9bf0;
+    border-right: none;
+}
+
+input:focus ~ button {
+    border: 2px solid #6a9bf0;
+    border-left: none;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
